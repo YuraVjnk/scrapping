@@ -8,6 +8,8 @@ django = "*"
 pytils = "*"
 django-extensions = "*"
 ipython = "*"
+requests = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
