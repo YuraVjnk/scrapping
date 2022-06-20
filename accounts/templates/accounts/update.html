@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %} Update {% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <h4 class="my-2 text-center">Настройки</h4>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+            </form>
+            <form method="POST" action="{% url 'accounts:delete' %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger justify-content-end">Удалить учетную запись</button>
+            </form>
+        </div>
+    </div>
+    <div class="row my-5 text-center">
+        <div class="col-md-8 mx-auto">
+            <p>
+                <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsed" aria-expanded="false" aria-controls="collapseExample">
+                    Отправить свои пожелания
+                </button>
+            </p>
+            <div class="collapse" id="collapsed">
+                <div class="card card-body">
+                    <form method="POST" action="{% url 'accounts:contact' %}">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            {{ contact_form.as_p }}
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
