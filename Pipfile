@@ -10,6 +10,13 @@ django-extensions = "*"
 ipython = "*"
 requests = "*"
 beautifulsoup4 = "*"
+python-dotenv = "*"
+django-debug-toolbar = "*"
+pillow = "*"
+gunicorn = "*"
+whitenoise = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 

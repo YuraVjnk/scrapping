@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+{% url 'accounts:update' as update_page%}
+{% url 'accounts:login' as login_page%}
+{% url 'accounts:register' as register_page %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="{%static 'my.ico' %}" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <title>{% block title %} YV Zaebalsa {% endblock %}</title>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: dodgerblue">
+        <a id='brand' class="navbar-brand px-4" href="{% url 'home' %}">Job Finder</a>
+        <button class="navbar-toggler px-4" type="button" data-bs-toggle="collapse" data-bs-target="#NavBar"
+                aria-controls="NavBar" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end px-4" id="NavBar">
+            <ul class="ml-auto navbar-nav">
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="{% if request.path == update_page %} menu_act {% else %} menu {% endif %}" href="{% url 'accounts:update' %}">Настройки</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="menu" href="{% url 'accounts:logout' %}">Выйти</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="{% if request.path == login_page %} menu_act {% else %} menu {% endif %}" href="{% url 'accounts:login' %}">Войти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="{% if request.path == register_page %} menu_act {% else %} menu {% endif %}" href="{% url 'accounts:register' %}">Регистрация</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-8 mx-auto my-3">
+            {% if messages %}
+                {% for message in messages %}
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                    aria-label="Close"></button>
+                        </div>
+                    {% else %}
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            </div>
+        </div>
+        {% block content %}{% endblock %}
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+

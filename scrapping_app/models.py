@@ -1,6 +1,15 @@
 from django.db import models
 from pytils.translit import slugify
 
+
+def default_urls():
+    return {
+        'work': '',
+        'djini': '',
+        'dou': '',
+    }
+
+
 class City(models.Model):
     name = models.CharField(max_length=100,
                             verbose_name='Город',
@@ -51,6 +60,33 @@ class Vacancy(models.Model):
     class Meta:
         verbose_name = 'Вакансия'
         verbose_name_plural = 'Вакансии'
+        ordering = ['-timestamp']
 
     def __str__(self):
         return self.title
+
+
+class Error(models.Model):
+    data = models.JSONField()
+    timestamp = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return f'Ошибка на {self.timestamp}'
+
+    class Meta:
+        verbose_name = 'Ошибка'
+        verbose_name_plural = 'Ошибки'
+
+
+class Url(models.Model):
+    city = models.ForeignKey(City, on_delete=models.CASCADE, verbose_name='Город')
+    language = models.ForeignKey(Language, on_delete=models.CASCADE, verbose_name='Язык программирования')
+    url_data = models.JSONField(default=default_urls)
+
+    class Meta:
+        constraints = [models.UniqueConstraint(fields=['city', 'language'], name='unique_search'),
+                       ]
+        verbose_name = 'Адреса для парсинга'
+        verbose_name_plural = 'Список для парсинга'
+
+

@@ -1,24 +1,13 @@
-{% extends 'scrapping_app/base.html' %}
-{% block title %} Vacancy Page {% endblock %}
-{% block content %} {% for vacancy in object_list %}
-    <div class="card my-3">
-        <div class="card-header">
-            <h5><a href="{{ vacancy.url }}">{{ vacancy.title }}</a></h5>
-        </div>
-        <div class="card-body">
-            <h4>{{ vacancy.company }}</h4>
-            <p class="card-text">{{ vacancy.description }}</p>
-            <p>{{ vacancy.city.name }} | {{ vacancy.language.name }} |
-                <small>{{ vacancy.timestamp|date:'d-m-Y' }}</small></p>
-        </div>
-    </div>
-{% empty %}
-    <h4 class="text-center">К сожалению по Вашему запросу ничего не найдено, попробуйте снова</h4>
-    <br>
-{% endfor %}
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col"><h2 class="text-center my-4">Сервис по сбору и рассылке вакансий</h2></div>
+</div>
     <div class="row">
-        <div class="col-md-4 mx-auto">
-            <form method="GET">
+        <div class="col-md-8 mx-auto">
+            <h4 class="my-2 text-center">Для просмотра доступных вакансий заполните форму</h4>
+            <form method="GET", action="{% url 'list' %}">
                 {{ form.as_p }}
                 <div class="d-grid gap-2 col-6 mx-auto">
                     <button type="submit" class="btn btn-primary mx-3">Submit</button>

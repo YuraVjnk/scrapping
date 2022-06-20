@@ -24,3 +24,10 @@ class VacancyAdmin(admin.ModelAdmin):
     list_editable = ['city']
     ordering = ['title']
 
+admin.site.register(Error)
+
+
+@admin.register(Url)
+class UrlAdmin(admin.ModelAdmin):
+    list_display = ['url_data']
+
