@@ -1,0 +1,2613 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-06-06T19:20:03.707Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Url object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-06-06T19:21:16.888Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Url object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-06-06T19:23:31.167Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "shelka09@ukr.net",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-06-06T19:23:40.822Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "sasha@ukr.net",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-06-06T19:23:43.800Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "sasha@ukr.net",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-06-08T16:04:04.032Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "7",
+      "object_repr": "test4567@ukr.net",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-06-08T16:04:04.043Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "test@ukr.net",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-06-08T16:04:04.054Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "y.viunnik@students.dut.edu.ua",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-06-08T16:04:04.063Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "yura@ukr.net",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-06-08T16:04:07.267Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "sasha@ukr.net",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-06-08T16:04:17.830Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "shelkanin09@gmail.com",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-06-08T16:04:21.075Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "shelkanin09@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-06-08T17:11:40.854Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "shelkanin09@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-06-08T17:11:46.018Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "shelka09@ukr.net",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-06-08T18:28:26.792Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Ошибка на 2022-06-08",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-06-08T18:29:58.981Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Ошибка на 2022-06-08",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-06-08T18:34:21.155Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Ошибка на 2022-06-08",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-06-08T18:36:32.710Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Ошибка на 2022-06-08",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-06-08T18:37:22.272Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Ошибка на 2022-06-08",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-06-08T18:46:20.825Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "shelka09@ukr.net",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-06-08T20:03:56.916Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "shelka09@ukr.net",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-06-09T12:23:34.820Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-06-09T12:41:40.854Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-06-09T12:42:19.924Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-06-09T12:43:01.492Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-06-09T12:46:29.944Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-06-09T12:52:47.627Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "11",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-06-09T12:54:12.743Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "12",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-06-09T12:55:00.172Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "13",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2022-06-09T12:58:57.486Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "14",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2022-06-09T13:01:37.684Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "15",
+      "object_repr": "Ошибка на 2022-06-09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add my user",
+      "content_type": 6,
+      "codename": "add_myuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change my user",
+      "content_type": 6,
+      "codename": "change_myuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete my user",
+      "content_type": 6,
+      "codename": "delete_myuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view my user",
+      "content_type": 6,
+      "codename": "view_myuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Город",
+      "content_type": 7,
+      "codename": "add_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Город",
+      "content_type": 7,
+      "codename": "change_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Город",
+      "content_type": 7,
+      "codename": "delete_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Город",
+      "content_type": 7,
+      "codename": "view_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Язык программирования",
+      "content_type": 8,
+      "codename": "add_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Язык программирования",
+      "content_type": 8,
+      "codename": "change_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Язык программирования",
+      "content_type": 8,
+      "codename": "delete_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Язык программирования",
+      "content_type": 8,
+      "codename": "view_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Вакансия",
+      "content_type": 9,
+      "codename": "add_vacancy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Вакансия",
+      "content_type": 9,
+      "codename": "change_vacancy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Вакансия",
+      "content_type": 9,
+      "codename": "delete_vacancy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Вакансия",
+      "content_type": 9,
+      "codename": "view_vacancy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Ошибка",
+      "content_type": 10,
+      "codename": "add_error"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Ошибка",
+      "content_type": 10,
+      "codename": "change_error"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Ошибка",
+      "content_type": 10,
+      "codename": "delete_error"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Ошибка",
+      "content_type": 10,
+      "codename": "view_error"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add url",
+      "content_type": 11,
+      "codename": "add_url"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change url",
+      "content_type": 11,
+      "codename": "change_url"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete url",
+      "content_type": 11,
+      "codename": "delete_url"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view url",
+      "content_type": 11,
+      "codename": "view_url"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "accounts",
+      "model": "myuser"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "scrapping_app",
+      "model": "city"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "scrapping_app",
+      "model": "language"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "scrapping_app",
+      "model": "vacancy"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "scrapping_app",
+      "model": "error"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "scrapping_app",
+      "model": "url"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "37yk00kpijapmmzjdohhe9jyo6xs8tkb",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBnCsK4dO8ZmgEGqRpISrsy3l2bdKHb_977LzXyupRx7TKPU1JnBerwuwWOD6kbSHeut6Zjq8s8Bb0peqddX1uS52V3_w4K9_KtA0q2HJAN-UgZIINxOdDgEDHGaAZ78kQiBAKZrFgJ3mKW5ADxmNT7A_GKOBU:1o1U34:dBJRFNkbgS0_wsKtTSYkj1jtjRH_IieW3LhX6Bxdlos",
+      "expire_date": "2022-06-29T14:31:10.579Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "oxpe4uqonlu3bixi6694in26uu59e6ud",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBnCsK4dO8ZmgEGqRpISrsy3l2bdKHb_977LzXyupRx7TKPU1JnBerwuwWOD6kbSHeut6Zjq8s8Bb0peqddX1uS52V3_w4K9_KtA0q2HJAN-UgZIINxOdDgEDHGaAZ78kQiBAKZrFgJ3mKW5ADxmNT7A_GKOBU:1nyKV9:HyeKNVbBeWItbqvJkZgr1bbWw6yeMxBM8cs8pCP4U8g",
+      "expire_date": "2022-06-20T21:43:07.261Z"
+    }
+  },
+  {
+    "model": "accounts.myuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$Ry2eFIgUolQ3Vz5Lm14WuJ$I4hrh7mj3OXxQyvNPJ+FP0qsEVKa3jJJiVcteZ1KbuE=",
+      "last_login": "2022-06-15T14:31:10.523Z",
+      "email": "shelka09@ukr.net",
+      "is_active": true,
+      "is_admin": true,
+      "city": 7,
+      "language": 1,
+      "send_email": true
+    }
+  },
+  {
+    "model": "accounts.myuser",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$trMix9FPHpz5EkDLcH8qVT$8GxNtIvYdJDJJqTtygKDycHR9kH6pvXcDyD7t0NNQqI=",
+      "last_login": null,
+      "email": "shelkanin09@gmail.com",
+      "is_active": true,
+      "is_admin": false,
+      "city": 6,
+      "language": 2,
+      "send_email": true
+    }
+  },
+  {
+    "model": "accounts.myuser",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$5yCJWJCI2rPVzUy7T5Vs5U$g526w/uXsROiYdZnWbU/POXJS2Kgk2JgK4jvpoVgnSc=",
+      "last_login": null,
+      "email": "ki@ur.com",
+      "is_active": true,
+      "is_admin": false,
+      "city": null,
+      "language": null,
+      "send_email": true
+    }
+  },
+  {
+    "model": "scrapping_app.city",
+    "pk": 3,
+    "fields": {
+      "name": "Харьков",
+      "slug": "harkov"
+    }
+  },
+  {
+    "model": "scrapping_app.city",
+    "pk": 4,
+    "fields": {
+      "name": "Круничи",
+      "slug": "krunichi"
+    }
+  },
+  {
+    "model": "scrapping_app.city",
+    "pk": 5,
+    "fields": {
+      "name": "Одесса",
+      "slug": "odessa"
+    }
+  },
+  {
+    "model": "scrapping_app.city",
+    "pk": 6,
+    "fields": {
+      "name": "Жмеренка",
+      "slug": "zhmerenka"
+    }
+  },
+  {
+    "model": "scrapping_app.city",
+    "pk": 7,
+    "fields": {
+      "name": "Киев",
+      "slug": "kiev"
+    }
+  },
+  {
+    "model": "scrapping_app.city",
+    "pk": 8,
+    "fields": {
+      "name": "Изюлий",
+      "slug": "izyulij"
+    }
+  },
+  {
+    "model": "scrapping_app.language",
+    "pk": 1,
+    "fields": {
+      "name": "Python",
+      "slug": "python"
+    }
+  },
+  {
+    "model": "scrapping_app.language",
+    "pk": 2,
+    "fields": {
+      "name": "Java",
+      "slug": "java"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 140,
+    "fields": {
+      "url": "https://www.work.ua/jobs/3751904/",
+      "title": "\nMiddle Python Developer\n",
+      "company": "4bill.io",
+      "description": "\n            Повна зайнятість. Досвід роботи від 2 років.\n                            «Наші платежі драйвують бізнес» — це не просто гасло, це дії, які ми втілюємо в життя! 4bill.io — мультиканальна…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 141,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4801180/",
+      "title": "\nSenior Python Developer\n",
+      "company": "4bill.io",
+      "description": "\n            Повна зайнятість. Досвід роботи від 5 років. Вища освіта.\n                            «Наші платежі драйвують бізнес» — це не просто гасло, це дії, які ми втілюємо в життя! 4bill.io — мультиканальна…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 142,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4827071/",
+      "title": "\nLinux System Administrator Go (Python, Devops)\n",
+      "company": "ABC Hosting, Ltd",
+      "description": "\n            Повна зайнятість, неповна зайнятість, дистанційна робота. Також готові взяти студента, людину з інвалідністю, ветерана АТО/ООС. Досвід роботи від 2 років.\n                            ABC Hosting, Ltd. is a company offering hosting services in many countries. Recently, we have introduced…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 143,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4799664/",
+      "title": "\nВикладач курсу Python\n",
+      "company": "CyberBionic Systematics",
+      "description": "\n            Неповна зайнятість, дистанційна робота. Досвід роботи від 1 року.\n                            Навчальний центр інформаційних технологій CyberBionic Systematics запрошує до співпраці Python розробників,…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 144,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4825306/",
+      "title": "\nQA Automation Engineer (Python)\n",
+      "company": "IT Recruitment Solutions (ITRS.ua) ®",
+      "description": "\n            Повна зайнятість, дистанційна робота. Досвід роботи від 2 років. Вища освіта.\n                            REQUIREMENTS:  2+ years in QA Automation testing using Python;   Expertise with Linux;   Higher education;…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 145,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4652897/",
+      "title": "\nFull stack Python (React, Django) Engineer\n",
+      "company": "Dwell",
+      "description": "\n            Неповна зайнятість, дистанційна робота. Досвід роботи від 2 років. Вища освіта.\n                            About Dwell    Company was founded September 2017 in Dallas, US   Mission of the company is to revolutionize…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 146,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4824507/",
+      "title": "\nPython Developer (Middle)\n",
+      "company": "No name",
+      "description": "\n            Повна зайнятість. Досвід роботи від 2 років.\n                            Мы — Product IT company, делаем приложения на Android и заливаем их на Google Play. Ищем Python Developer…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 147,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4748807/",
+      "title": "\nJunior Python Developer\n",
+      "company": "No name",
+      "description": "\n            Повна зайнятість, дистанційна робота. Досвід роботи від 1 року.\n                            У зв’язку з активним розвитком та розширенням штатуKitworks.systems, продуктова IT компанія, що займається…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 148,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4820658/",
+      "title": "\nMiddle+ Python Developer\n",
+      "company": "Talent of Ukraine",
+      "description": "\n            Повна зайнятість, дистанційна робота. Досвід роботи від 2 років.\n                            Company Overview Our client is a global software engineering company with over 20 years and highly-trained…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 149,
+    "fields": {
+      "url": "https://www.work.ua/jobs/4804923/",
+      "title": "\nMiddle Python Developer to Kharkiv\n",
+      "company": "No name",
+      "description": "\n            Повна зайнятість, дистанційна робота. Також готові взяти студента. Досвід роботи від 2 років. Незакінчена вища освіта.\n                            Remote   Full-time   Experience 3+ years   English: Intermediate+     Gargoyle Group — specializes in the…⁠\n",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 150,
+    "fields": {
+      "url": "https://djinni.co/jobs/431942-senior-qa-automation-python-/",
+      "title": "\n\nSenior QA automation (Python)\n\n",
+      "company": "\nІнна Михайлова,\n\n      IT Researcher\n      в \n      \n        Luxoft\n      \n\n\n\n  \n    Україна\n(Київ)\n\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "We are looking for open-minded and skilled engineers to extend our development team.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 151,
+    "fields": {
+      "url": "https://djinni.co/jobs/431863-c-firmware-engineer/",
+      "title": "\n\nC Firmware Engineer\n\n$2500-3500\n",
+      "company": "\nDariusz Kozyra,\n\n      Recruiter\n      в \n      \n        Aeolus Robotics\n      \n\n\n\n  \n    Релокейт,\n    Польща\n\n    \n\n        Product\n \n        Office Work\n· 2 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Aeolus Robotics Inc. is looking for a C Firmware Engineer for Embedded Systems to support the design and development of our framework for robotics development.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 152,
+    "fields": {
+      "url": "https://djinni.co/jobs/431908-junior-python-developer/",
+      "title": "\n\nJunior+ Python Developer\n\n",
+      "company": "\nKsenia Fomina,\n\n      Recruiter\n      в \n      \n        Inmost\n      \n\n\n\n  \n    Україна\n(Київ, Харків)\n\n \n        Full Remote\n· 1 рік досвіду\n· Intermediate\n",
+      "description": "Inmost team invites Junior+ Python Developer! With us you can work on interesting projects and improve your skills. Join us!",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 153,
+    "fields": {
+      "url": "https://djinni.co/jobs/431902-senior-automation-qa-engineer/",
+      "title": "\n\nSenior Automation QA Engineer\n\n",
+      "company": "\nAnastasiia Hulvanska,\n\n      Talent Sourcing Consultant\n      в \n      \n        Ciklum\n      \n\n\n\n  \n    Україна\n\n    \n \n        Quarantine Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "On behalf of Ciklum Digital, Ciklum is looking for a Senior Automation QA Engineer to join our team on a full-time basis.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 154,
+    "fields": {
+      "url": "https://djinni.co/jobs/416422-senior-python-developer/",
+      "title": "\n\nSenior Python Developer\n\n",
+      "company": "\nІнна Михайлова,\n\n      IT Researcher\n      в \n      \n        Luxoft\n      \n\n\n\n  \n    Україна\n(Київ)\n\n \n        Full Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "Our Client is one of the largest in UK groceries and general merchandise retailer is in the middle of transformation to technology Company in retail. As part of this exercise renovation of technology landscape taking place across Company.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 155,
+    "fields": {
+      "url": "https://djinni.co/jobs/431875-data-api-developer/",
+      "title": "\n\nData API Developer\n\n",
+      "company": "\nIryna Dmytruk,\n\n      Recruiter\n      в \n      \n        Skelia\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "Our client is a global mining company with a world-class portfolio of products that are used by a billion consumers every day. They use advanced machine learning and artificial intelligence to optimize their processes.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 156,
+    "fields": {
+      "url": "https://djinni.co/jobs/373580-python-developer/",
+      "title": "\n\nPython developer\n\n",
+      "company": "\nNatalia Shashkova,\n\n      IT Recruiter\n      в \n      \n        Powerсode\n      \n\n\n\n  \n    Україна\n(Запоріжжя, Київ)\n\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "Hey guys!\r\n\r\nPowercode company is currently looking for crazy-ambitious and result oriented person to join our team!",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 157,
+    "fields": {
+      "url": "https://djinni.co/jobs/431833-senior-devops-engineer/",
+      "title": "\n\nSenior DevOps Engineer\n\n",
+      "company": "\nAlena Danylevska,\n\n      Recruiter\n      в \n      \n        GlobalLogic\n      \n\n\n\n  \n    Польща\n\n    \n \n        Full Remote\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "We are looking for Senior DevOps Engineer to join our team!",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 158,
+    "fields": {
+      "url": "https://djinni.co/jobs/431810-senior-python-developer/",
+      "title": "\n\nSenior Python Developer\n\n",
+      "company": "\nNatalia Ivashina,\n\n      Recruiter\n      в \n      \n        INDIGO Tech Recruiters\n      \n\n\n\n  \n    Релокейт,\n    Грузія,\n    Кіпр\n\n    \n\n        Product\n \n        Hybrid Remote\n· 5 років досвіду\n· Intermediate\n",
+      "description": "Admirals is a leading, global online broker which is expanding into a Financial Hub. By offering a wide range of products and services, Admirals makes personal finance transparent and accessible. Our vision is to provide financial freedom to 10 million people by 2030.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 159,
+    "fields": {
+      "url": "https://djinni.co/jobs/431806-python-back-end-developer/",
+      "title": "\n\nPython (Back End) developer\n\n",
+      "company": "\nЄвгенія Талала,\n\n      HR\n      в \n      \n        ДП \"Інфотех\"\n      \n\n\n\n  \n    Україна\n(Київ)\n\n\n        Product\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n",
+      "description": "ДП «ІНФОТЕХ», українська державна продуктова ІТ компанія, шукає досвідченого розробника Python Developer для участі у  проекті «Медицинська інформаційна система» з використанням  Django Rest Framework.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 160,
+    "fields": {
+      "url": "https://djinni.co/jobs/431783-senior-qa-automation-engineer/",
+      "title": "\n\nSenior QA Automation Engineer\n\n",
+      "company": "\nYaryna Kunynets,\n\n      Recruiter\n      в \n      \n        PLVision\n      \n\n\n\n  \n    Релокейт,\n    Україна\n(Івано-Франківськ, Київ, Львів, Одеса),\n    Польща\n\n    \n \n        Office/Remote на ваш вибір\n· 5 років досвіду\n· Intermediate\n",
+      "description": "We are looking for a Senior QA Automation Engineer to join PLVision’s starter team and launch new projects based on innovative and in-demand networking technologies. Our customers are networking industry leaders as well as innovative, disruptive startups.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 161,
+    "fields": {
+      "url": "https://djinni.co/jobs/402420-senior-back-end-engineer/",
+      "title": "\n\nSenior Back-End Engineer\n\n",
+      "company": "\nAnna Bahan,\n\n      Recruiter\n      в \n      \n        Scalors GmbH\n      \n\n\n\n  \n    Україна\n(Київ)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "On behalf of our Client, Scalors is looking for a Senior Back-End Engineer to join our client’s team.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 162,
+    "fields": {
+      "url": "https://djinni.co/jobs/431773-senior-test-engineer-automation-python-/",
+      "title": "\n\nSenior Test Engineer Automation (Python)\n\n",
+      "company": "\nIryna Pryshchepa,\n\n      Researcher\n      в \n      \n        Dev.Pro\n      \n\n\n\n  \n    Релокейт,\n    Україна\n(Львів)\n\n \n        Office Work\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "We invite an experienced Test Engineer to join our team! We offer an exclusive opportunity to work on a project in which web and desktop testing are performed simultaneously and includes different target platforms and devices.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 163,
+    "fields": {
+      "url": "https://djinni.co/jobs/408691-senior-full-stack-developer/",
+      "title": "\n\nSenior Full-Stack developer\n\n",
+      "company": "\nOleksandra Kravchenko,\n\n      Talent Acquisition Specialist\n      в \n      \n        StartupSoft\n      \n\n\n\n  \n    Україна\n(Львів, Тернопіль)\n\n \n        Office/Remote на ваш вибір\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "ServiceBell is an internet-based service that helps website visitors with embedded live video chat for sales & retention growth.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 164,
+    "fields": {
+      "url": "https://djinni.co/jobs/431741-software-engineer-back-end-/",
+      "title": "\n\nSoftware Engineer (Back End)\n\n",
+      "company": "\nHelena Bizhko,\n\n      IT Recruiter\n      в \n      \n        Marusich\n      \n\n\n\n  \n    Польща\n\n    \n\n        Product\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "We are a new player in the FinTech space. We are bringing innovation to equity issuance processes (e.g. IPOs) that have not changed in more than a decade. In less than 6 months, the beta version has gone live and is used by more than 70 users with more than $1bn dollars in assets under management.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 165,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/plvision/vacancies/210509/",
+      "title": "Senior QA Automation Engineer",
+      "company": " PLVision",
+      "description": "\n\t\t\t\t\tWe are looking for a Senior QA Automation Engineer to join PLVision’s starter team and launch new projects based on innovative and in-demand networking technologies. Our customers are networking industry leaders as well as innovative, disruptive startups.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 166,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/delphi-llc/vacancies/205690/",
+      "title": "Automation QA(Python) Engineer",
+      "company": " Delphi Software",
+      "description": "\n\t\t\t\t\tНеобхідні навички\n\nAt least 2 years’ experience in development of product testing, manufacturing, automation tools.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 167,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/geniusee/vacancies/186456/",
+      "title": "Middle Python/Data Engineer",
+      "company": " Geniusee",
+      "description": "\n\t\t\t\t\tOur mission at Geniusee is to help businesses thrive through tech partnership and strengthen the engineering community by sharing knowledge and creating opportunities🌿\nWe care about Trust, Partnership, Transparency, and Responsibility.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 168,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/skelia/vacancies/207275/",
+      "title": "Software Engineer (Python) (SK-970)",
+      "company": " Skelia",
+      "description": "\n\t\t\t\t\tSkelia welcomes an experienced Software Engineer (Python) to become a valuable member of the project team of our client, a leading company in the mining industry. You will be focused on building and deploying data products, concentrating on productization.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 169,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/provectus/vacancies/155406/",
+      "title": "Data Engineer (Python)",
+      "company": " Provectus",
+      "description": "\n\t\t\t\t\tProvectus is an Artificial Intelligence consultancy and solutions provider, helping businesses achieve their objectives through AI.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 170,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/pine-software/vacancies/210314/",
+      "title": "Python Developer",
+      "company": " Pine Software",
+      "description": "\n\t\t\t\t\tWe are looking for Python Developer to join our team.We offer non-trivial tasks and participation in various long-term projects: both supporting the existing software and developing new ones from scratch.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 171,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/data-science-ua/vacancies/205058/",
+      "title": "Vision pipeline engineer for AI-based project",
+      "company": " Data Science UA",
+      "description": "\n\t\t\t\t\tAbout product: This is an intelligent video analytics platform designed to automate the process of learning and generating contextual insights from the unstructured data inside video footage.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 172,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/railsware/vacancies/195456/",
+      "title": "Odoo Developer (Python)",
+      "company": " Railsware",
+      "description": "\n\t\t\t\t\tRailsware is looking for a developer skilled in Odoo, Python, and SQL. We need a specialist with a product-oriented mindset to streamline company operations and create useful solutions for our teams!\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 173,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/pine-software/vacancies/202789/",
+      "title": "QA Automation Engineer (Python)",
+      "company": " Pine Software",
+      "description": "\n\t\t\t\t\tWe’re looking for a QA Automation Engineer to join our team. \nWe offer a job in the software development team of a fast-growing company with ambitious, interesting and diverse projects.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 174,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/orderry/vacancies/164076/",
+      "title": "Senior Backend Engineer (Python)",
+      "company": " Orderry",
+      "description": "\n\t\t\t\t\tМи використовуємо продуктово-інженерний підхід у вирішенні завдань. Оскільки ми продуктова компанія, нам важливо, щоб розробники не лише виконували завдання, а й розуміли проблеми бізнесу, які вони закривають.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 175,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/orderry/vacancies/118743/",
+      "title": "Tech Lead (Python)",
+      "company": " Orderry",
+      "description": "\n\t\t\t\t\tOrderry — це українська продуктова IT-компанія, яка робить життя малого та середнього бізнесу краще та простіше. Те, що починалося з невеликої послуги, пізніше переросло в стартап, а ще пізніше — в лідируючий SaaS-продукт для сервісного бізнесу.\n\nЩо ми робимо?\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 176,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/info-polus/vacancies/210193/",
+      "title": "Middle/senior (Python/Django) developer",
+      "company": "Info-Polus",
+      "description": "\n\t\t\t\t\tКомпанія INFO-POLUS в пошуках Middle/senior (Python/Django) розробника.Цікавий проект пов’язаний екологічною енергетикою для скандинавських країн. Розробляється карта з розміщенням екологічних джерел енергії (сонячні панелі, вітряки, тощо), та можливими маршрутами її постачання.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 177,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/tilting-point/vacancies/106765/",
+      "title": "Data Engineer (Python/Scala)",
+      "company": " Tilting Point",
+      "description": "\n\t\t\t\t\tTilting Point is looking for a Data Engineer to join our team in Kyiv. It’s an opportunity to build a complex data warehouse and ETL platform using a fresh stack of modern technologies.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 178,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/delphi-llc/vacancies/123836/",
+      "title": "Senior Automation QA (Python) Engineer",
+      "company": " Delphi Software",
+      "description": "\n\t\t\t\t\tVAST is now the newest startup unicorn, and is the first most valuable file storage company since Isilon. The New York-based company, that breaks decades-old data storage tradeoffs & brings an end to complex storage tiering and HDD usage in the enterprise.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 179,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/sombra/vacancies/210018/",
+      "title": "Middle Python Engineer",
+      "company": " Sombra",
+      "description": "\n\t\t\t\t\tYou will join the Investment Platforms team at Client Global Asset Management’s Toronto office and partner directly with Investment Management to help deliver custom technology solutions to support investment research and portfolio analytics.This involves working in the full...\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 180,
+    "fields": {
+      "url": "https://djinni.co/jobs/431950-software-engineer-scada-renewable-energy-/",
+      "title": "\n\nSoftware Engineer (SCADA, Renewable Energy)\n\n$5000-6500\n",
+      "company": "\nНадежда Донец,\n\n      IT Recruiter\n      в \n      \n        Inventorsoft\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "Шукаємо Software Engineer (SCADA) для створення автоматизованих процесів для інтеграції даних постачальників в існуючий продукт (альтернативна енергетика). Від 4-х років комерційного досвіду роботи з Python, англійська Upper-Intermediate.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 181,
+    "fields": {
+      "url": "https://djinni.co/jobs/431967-middle-python-developer/",
+      "title": "\n\nMiddle Python Developer\n\n",
+      "company": "\nYulia Rudnieva,\n\n      IT Recruiter\n      в \n      \n        Oriented AS\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "We are a Norwegian company that provides an overall and complex integration of IT services for the business market. Our teams of professionals are a unique combination of talent, creativity, and a bright mind.\r\nNow we are looking for a Middle Python Developer to join our friendly team.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 182,
+    "fields": {
+      "url": "https://djinni.co/jobs/415187-python-vue-js-full-stack-developer/",
+      "title": "\n\nPython + Vue.JS full stack developer\n\n$800-1200\n",
+      "company": "\nAnton Piatygin,\n\n      Co-founder\n      в \n      \n        Ocean.me\n      \n\n\n\n  \n    Україна\n(Київ)\n\n\n        Product\n \n        Hybrid Remote\n· 1 рік досвіду\n· Pre-Intermediate\n",
+      "description": "Buy Now Pay Later сервіс шукає фул стек розробника для перезапуску роботи!",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 183,
+    "fields": {
+      "url": "https://djinni.co/jobs/432286-senior-python-developer-ua-pl-geor-/",
+      "title": "\n\nSenior Python Developer (UA/PL/Geor)\n\n$3000-4000\n",
+      "company": "\nAlexandr Zaichenko,\n\n      Recruiter\n      в \n      \n        EliSoft\n      \n\n\n\n  \n    Релокейт,\n    Грузія,\n    Польща,\n    Україна\n(Київ)\n\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "We are looking for a Senior Python Developer to join our Dev team.\r\nIf you like thinking outside the box and collaborating with teammates to develop solutions to complex problems — this is the place for you! We are working on banking audit product which helps to monitor errors in banking transactions",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 184,
+    "fields": {
+      "url": "https://djinni.co/jobs/369146-automation-test-engineer/",
+      "title": "\n\nAutomation Test Engineer\n\n",
+      "company": "\nAnastasiia Holub,\n\n      HR Manager\n      в \n      \n        Blackthorn Vision\n      \n\n\n\n  \n    Україна\n(Львів, Хмельницький)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "An exciting and unique opportunity to become a part of the Blackthorn Vision professional team.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 185,
+    "fields": {
+      "url": "https://djinni.co/jobs/413682-middle-python-automation-qa-engineer/",
+      "title": "\n\nMiddle Python Automation QA Engineer\n\n",
+      "company": "\nIryna Neruk,\n\n      Recruiting Specialist\n      в \n      \n        GlobalLogic\n      \n\n\n\n  \n    Україна\n(Київ, Львів, Миколаїв, Харків)\n\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "Currently we are working with a global leader in data integrity. Our client is providing accuracy and consistency in data for 12,000 customers in more than 100 countries, including 90 percent of the fortune 100. Their data integration, data quality, location intelligence, and data enrichment produc",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 186,
+    "fields": {
+      "url": "https://djinni.co/jobs/432239-senior-python-developer/",
+      "title": "\n\nSenior Python Developer\n\n$3500-7000\n",
+      "company": "\nТарас Пилека,\n\n      Recruiter\n      в \n      \n        SevenPro\n      \n\n\n\n  \n    Україна\n(Харків)\n\n \n        Full Remote\n· 5 років досвіду\n· Intermediate\n",
+      "description": "We are looking for a Senior Python Developer. We have built a cloud-based energy revenue analytics platform on React, Node.js, and MongoDB. We are looking for someone who can develop and design back-end API’s in Python with some knowledge of SQL Server.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 187,
+    "fields": {
+      "url": "https://djinni.co/jobs/432230-strong-middle-python-developer/",
+      "title": "\n\nStrong Middle Python Developer\n\n",
+      "company": "\nAnastasiia Semenova,\n\n      Recruitment Lead\n      в \n      \n        Northell\n      \n\n\n\n  \n    Україна\n(Івано-Франківськ)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Hey! Northell is growing and right now we are looking for a Middle Python Developer who’ll join our team. Don’t hesitate and send us your CV :)",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 188,
+    "fields": {
+      "url": "https://djinni.co/jobs/432225-middle-senior-devops-engineer-python-kubernet/",
+      "title": "\n\nMiddle/Senior DevOps Engineer (Python, Kubernetes)\n\n",
+      "company": "\nAnna Demchuk,\n\n      Recruiter\n      в \n      \n        Luxoft\n      \n\n\n\n  \n    Україна\n(Київ)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "We're building a project for market leading large Germany based company with 440,000 customers worldwide.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 189,
+    "fields": {
+      "url": "https://djinni.co/jobs/432221-senior-python-developer/",
+      "title": "\n\nSenior Python Developer\n\n",
+      "company": "\nDaria Kozlova,\n\n      Researcher\n      в \n      \n        SevenPro\n      \n\n\n\n  \n    Україна\n(Харків)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "We are looking for a Senior Back-end Developer. We are looking for someone who can develop and design back-end API’s in Python with some knowledge of SQL Server. An ideal candidate would be someone with 5+ years of experience in back-end development experience.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 190,
+    "fields": {
+      "url": "https://djinni.co/jobs/432192-middle-python-developer-for-ciklum-digital/",
+      "title": "\n\nMiddle Python Developer for Ciklum Digital\n\n",
+      "company": "\nTetiana Shevchenko,\n\n      Talent Sourcing Consultant\n      в \n      \n        Ciklum\n      \n\n\n\n  \n    Україна\n\n    \n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Upper-Intermediate\n",
+      "description": "On behalf of Ciklum Digital, Ciklum is looking for Middle  Python Developer to join our team on a full-time basis.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 191,
+    "fields": {
+      "url": "https://djinni.co/jobs/432187-python-developer/",
+      "title": "\n\nPython Developer\n\n",
+      "company": "\nЕлена Андрющенко,\n\n      Senior IT Recruiter\n      в \n      \n        Crestaff\n      \n\n\n\n  \n    Україна\n\n    \n\n        Product\n \n        Full Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "We are looking for an experienced Python Developer!",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 192,
+    "fields": {
+      "url": "https://djinni.co/jobs/416232-backend-python-developer/",
+      "title": "\n\nBackend Python developer\n\n",
+      "company": "\nKateryna Dovzhenko,\n\n      Recruitment Account Manager\n      в \n      \n        SD Solutions\n      \n\n\n\n  \n    Кіпр,\n    Грузія,\n    Румунія,\n    Україна\n\n    \n \n        Office/Remote на ваш вибір\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "On behalf of Wand AI (ex. Wayto), SD Solutions is looking for a Back-End Engineer for developing a product from scratch, who wants to break boundaries, move mountains, and shape the future of AI.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 193,
+    "fields": {
+      "url": "https://djinni.co/jobs/432141-marketing-analyst-for-pmi/",
+      "title": "\n\nMarketing Analyst for PMI\n\n",
+      "company": "\nValentyna Lobachuk,\n\n      Recruiter\n      в \n      \n        Parimatch Tech\n      \n\n\n\n  \n    Україна\n(Київ)\n\n\n        Product\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "PMI is a service company, engaged in the development and implementation of the expansion strategy for Parimatch brand in the markets of Africa, Asia, Europe, and Latin America. The company provides tech, marketing and communications services for partners in the betting and gambling industry.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 194,
+    "fields": {
+      "url": "https://djinni.co/jobs/432140-senior-python-developer-for-ciklum-digital/",
+      "title": "\n\nSenior Python Developer for Ciklum Digital\n\n",
+      "company": "\nSofia Ivanets,\n\n      Talent Sourcing Consultant\n      в \n      \n        Ciklum\n      \n\n\n\n  \n    Релокейт,\n    Україна\n(Львів)\n\n \n        Quarantine Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "On behalf of Ciklum Digital, Ciklum is looking for a Senior Python Developer to join our team on a full-time basis.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 195,
+    "fields": {
+      "url": "https://djinni.co/jobs/432134-devops-engineer/",
+      "title": "\n\nDevOps Engineer\n\n",
+      "company": "\nAnastasiia Yepisheva,\n\n      Talent Sourcer\n      в \n      \n        HOS-Inc\n      \n\n\n\n  \n    Україна\n\n    \n\n        Product\n \n        Office/Remote на ваш вибір\n· 5 років досвіду\n· Intermediate\n",
+      "description": "Your responsibilities will include building out systems and processes to speed up code development and delivery. As one of the first engineers in the company, you will be responsible for ensuring the code style is implemented consistently across the codebase right from the start.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 196,
+    "fields": {
+      "url": "https://djinni.co/jobs/432124-python-developer/",
+      "title": "\n\nPython Developer\n\n$6000\n",
+      "company": "\nIrina Sevastyanova,\n\n      IT Recruiter\n      в \n      \n        WHO-Recruitement\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 5 років досвіду\n· Intermediate\n",
+      "description": "1648 Factory GmbH consists of a core team and a network of top-class experts, entrepreneurs, and talents from a wide range of fields. Retail, lifestyle, architecture, marketing, web design, conception - for many topics we have specialists directly in the neighborhood.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 197,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/thewhykingz/vacancies/210611/",
+      "title": "Middle Python (Blockchain) developer",
+      "company": " The WhyKingz",
+      "description": "\n\t\t\t\t\tМи розширюємося та хочемо запустити для наших клієнтів нові зручні сервіси для зберігання коштів та оплати послуг у криптовалютах на глобальному ринку payments. Шукаємо розробників для розвитку існуючих продуктів та запуску MVP за новими сервісами.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 198,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/dev-pro/vacancies/210603/",
+      "title": "Intermediate/Senior Software Engineer (React.js/Python)",
+      "company": " Dev.Pro",
+      "description": "\n\t\t\t\t\tWe invite a Full-Stack Engineer to join a team that is building a world-class, award-winning product. Our client is the G2 leader in sales gamification and coaching software for metric driven teams.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 199,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/it/vacancies/184556/",
+      "title": "Middle QA Automation Engineer (Python)",
+      "company": " IT-Enterprise",
+      "description": "\n\t\t\t\t\tПродукт: сервіс SmartTender (smarttender.biz) — це електронний майданчик для комерційних і державних торгів. Сервіс почав свою роботу в 2013 році, з того часу ним скористалося 90 тисяч компаній.SmartTender є офіційною майданчиком ProZorro.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 200,
+    "fields": {
+      "url": "https://djinni.co/jobs/432301-python-developer/",
+      "title": "\n\nPython Developer\n\n",
+      "company": "\nAndrey Usoltsev,\n\n      Talent Sourcer\n      в \n      \n        SmugDuck\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "The company is a pioneer in data security and analytics, specializing in software for data protection, threat detection and response, and compliance.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 201,
+    "fields": {
+      "url": "https://djinni.co/jobs/432308-middle-python-developer/",
+      "title": "\n\nMiddle Python Developer\n\n$3000-5000\n",
+      "company": "\nTatyana Simagina,\n\n      IT Talent Sourcer\n      в \n      \n        Art2Hire\n      \n\n\n\n  \n    Україна\n\n    \n\n        Product\n \n        Full Remote\n· 3 роки досвіду\n· Pre-Intermediate\n",
+      "description": "Our Client, a Silicon Valley startup that teaching over a million children worldwide to speak English with their voice-based virtual tutor is now looking for a Python Developer to join their team.\r\n\r\nLocation: CA, United States\r\nType: Full-time, Remote",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 202,
+    "fields": {
+      "url": "https://djinni.co/jobs/432317-middle-big-data-engineer-irc156985/",
+      "title": "\n\nMiddle Big Data Engineer IRC156985\n\n",
+      "company": "\nViktoriia Blyzniuk,\n\n      Recruiter specialist\n      в \n      \n        GlobalLogic\n      \n\n\n\n  \n    Польща\n\n    \n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Our project increases one of the teams and is looking for Big Data Engineer.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 203,
+    "fields": {
+      "url": "https://djinni.co/jobs/418884-senior-python-developer-django-/",
+      "title": "\n\nSenior Python developer (Django)\n\n$4000-7000\n",
+      "company": "\nYulia Semenyuk,\n\n      Contractor recruiter\n      в \n      \n        Enlil\n      \n\n\n\n  \n    Україна,\n    Сполучені Штати\n\n    \n\n        Product\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "USA based startup searches for motivated software experts in Ukraine. Company provides software tool for medical device manufactures and developers.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 204,
+    "fields": {
+      "url": "https://djinni.co/jobs/432755-general-python-django-engineer/",
+      "title": "\n\nGeneral Python (Django) Engineer\n\n",
+      "company": "\nMariia Okopna,\n\n      Recruiter\n      в \n      \n        InterLogic\n      \n\n\n\n  \n    Релокейт,\n    Україна\n(Львів, Хмельницький),\n    Польща,\n    Данія\n\n    \n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Would you like to develop back-end, IoT and cloud solutions in a newly established and growing company? We are looking for an experienced Senior Python (Django) Engineer who thrives on assuming responsibility and developing solutions from scratch.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 205,
+    "fields": {
+      "url": "https://djinni.co/jobs/432742-python-architect/",
+      "title": "\n\nPython Architect\n\n",
+      "company": "\nDaria Rusetska,\n\n      Lead Recruiter\n      в \n      \n        KnubiSoft\n      \n\n\n\n  \n    Україна\n\n    \n \n        Office/Remote на ваш вибір\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "Greeting from Knubisoft!\r\nWe are looking for a experienced Python Architect to join our team at Lviv Office or remote",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 206,
+    "fields": {
+      "url": "https://djinni.co/jobs/417433-python-software-engineer-for-big-data-retrain/",
+      "title": "\n\nPython Software Engineer for Big Data retraining\n\n",
+      "company": "\nKsenia Yaremenko,\n\n      Senior Recruiter\n      в \n      \n        Epam Systems\n      \n\n\n\n  \n    Україна\n(Одеса)\n\n \n        Full Remote\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "Currently, we are looking for Java software engineer for Big data retraining. During it you will get theoretical and practical skills and knowledge working with such technologies as Spark, Kafka, HDFS and other distributed files systems, clouds.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 207,
+    "fields": {
+      "url": "https://djinni.co/jobs/432735-python-engineer/",
+      "title": "\n\nPython Engineer\n\n",
+      "company": "\nDaryna Haida,\n\n      IT Recruiter\n      в \n      \n        Grid Dynamics\n      \n\n\n\n  \n    Україна\n(Вінниця, Дніпро, Київ, Львів),\n    Польща\n\n    \n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "If you enjoy freedom and responsibility, creative thinking, and leading and mentoring others, then join our team of world-class developers, QA engineers, DevOps engineers, architects, and managers.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 208,
+    "fields": {
+      "url": "https://djinni.co/jobs/432734-devops-engineer-python-kubernetes-/",
+      "title": "\n\nDevOps Engineer (Python, Kubernetes)\n\n",
+      "company": "\nKatya Kurteva,\n\n      Researcher\n      в \n      \n        Luxoft\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 2 роки досвіду\n· Upper-Intermediate\n",
+      "description": "We're building a project for market leading large Germany based company with 440,000 customers worldwide.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 209,
+    "fields": {
+      "url": "https://djinni.co/jobs/432731-software-developer-python/",
+      "title": "\n\nSoftware Developer Python\n\n$2500-3900\n",
+      "company": "\nKlaudia Witek,\n\n      HR Consultant\n      в \n      \n        Inuits\n      \n\n\n\n  \n    Польща\n\n    \n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "For a project with our client 1010data we are looking for a Software Developer Python within a QA-environment.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 210,
+    "fields": {
+      "url": "https://djinni.co/jobs/432705-senior-python-django-developer/",
+      "title": "\n\nSenior Python (Django) Developer\n\n",
+      "company": "\nYevhen Tsyhankov,\n\n      Talent Acquisition Manager\n      в \n      \n        Echo\n      \n\n\n\n  \n    Україна\n(Львів)\n\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Dutch fintech company, with a diverse team of over 30 entrepreneurial go-getters from all over the world.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 211,
+    "fields": {
+      "url": "https://djinni.co/jobs/432701-middle-senior-python-developer/",
+      "title": "\n\nMiddle/Senior Python Developer\n\n",
+      "company": "\nRostyslav Zmykalo,\n\n      IT Recruiter\n      в \n      \n        Litslink\n      \n\n\n\n  \n    Україна\n(Київ, Харків)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "Welcome to LITSLINK — a top software development company from the US established by motivated doers and tech entrepreneurs with a great mission in mind — help up-and-coming companies and SME businesses turn their dreams into profitable ventures.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 212,
+    "fields": {
+      "url": "https://djinni.co/jobs/418483-python-developer-from-middle-/",
+      "title": "\n\nPython Developer ( from Middle )\n\n",
+      "company": "\nAnastasiia Doroshenko,\n\n      IT Recruiter\n      в \n      \n        LITSLINK\n      \n\n\n\n  \n    Україна\n(Київ, Харків)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "You will develop code in collaboration with clients to prototype and develop solutions for their business needs.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 213,
+    "fields": {
+      "url": "https://djinni.co/jobs/432691-middle-senior-python-developer/",
+      "title": "\n\nMiddle + / Senior Python Developer\n\nдо $6500\n",
+      "company": "\nOlha Pinkas,\n\n      HR manager\n      в \n      \n        Argument staffing agency\n      \n\n\n\n  \n    Україна,\n    Польща,\n    Франція\n\n    \n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "We are looking for a talented Middle + / Senior Python Developer to join our team!",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 214,
+    "fields": {
+      "url": "https://djinni.co/jobs/229174-data-engineer-poland-/",
+      "title": "\n\nData Engineer (Poland)\n\n",
+      "company": "\nWeronika Puto,\n\n      Recruitment Specialist\n      в \n      \n        Inuits\n      \n\n\n\n  \n    Релокейт,\n    Польща\n\n    \n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Upper-Intermediate\n",
+      "description": "As a Data Engineer at 1010data, you will design, build, maintain and optimize large-scale automated ELT processes. You will work closely with our data scientists and analysts to create efficient and reliable jobs that support 1010data's data products and our clients' data warehousing needs.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 215,
+    "fields": {
+      "url": "https://djinni.co/jobs/432682-middle-full-stack-python-developer-search-eng/",
+      "title": "\n\nMiddle Full-stack Python developer (search engine development)\n\nвід $4500\n",
+      "company": "\nDenis Oskorbin,\n\n      Director\n      в \n      \n        E1\n      \n\n\n\n  \n    Україна,\n    Естонія,\n    Болгарія,\n    Польща\n\n    \n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Full-stack Python developer (B2B search engine development)\r\n#EU/Ukraine #remote #$4200+\r\nТільки для громадян України.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 216,
+    "fields": {
+      "url": "https://djinni.co/jobs/300277-qa-engineer/",
+      "title": "\n\nQA Engineer\n\n",
+      "company": "\nWeronika Puto,\n\n      Recruitment Specialist\n      в \n      \n        Inuits\n      \n\n\n\n  \n    Релокейт,\n    Польща\n\n    \n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Advanced/Fluent\n",
+      "description": "For a project with our client 1010data, we are currently looking for a QA Engineer.\r\n\r\n1010data travels at the speed of thought to make Big Data discovery easy; they power sub-second responses to analyses run on billions of rows of data. 1010data is defining the way the world interacts with data.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 217,
+    "fields": {
+      "url": "https://djinni.co/jobs/432670-senior-software-engineer-c-and-python/",
+      "title": "\n\nSenior Software Engineer C++ and Python\n\n",
+      "company": "\nOlha Poznokos,\n\n      Recruiter\n      в \n      \n        Globallogic\n      \n\n\n\n  \n    Україна\n(Дніпро, Київ, Львів, Харків)\n\n \n        Office/Remote на ваш вибір\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "We are looking for a Software Engineer C++!\r\nJoin our team :)",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 218,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/idenon/vacancies/210723/",
+      "title": "Senior Python Developer",
+      "company": " Idenon",
+      "description": "\n\t\t\t\t\tIdenon is a modern games development company. We are proud of designing and developing our games in-house. Our aim is to bring new quality into existing market. We deliver unique gaming experience with every new product. We develop games that people want to play non stop!\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 219,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/beetroot/vacancies/204778/",
+      "title": "Full-stack Developer (Vue.js + Python)",
+      "company": " Beetroot",
+      "description": "\n\t\t\t\t\tWe are looking for an experienced Full-stack Developer to work on new features for an existing web application.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 220,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/litslink/vacancies/80388/",
+      "title": "Middle/Senior Python Developer",
+      "company": " LITSLINK",
+      "description": "\n\t\t\t\t\tWelcome to LITSLINK — a top software development company from the US established by motivated doers and tech entrepreneurs with a great mission in mind — help up-and-coming companies and SME businesses turn their dreams into profitable ventures.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 221,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/ciklum/vacancies/210690/",
+      "title": "Middle Python Developer for Guardicore (220003P9)",
+      "company": " Ciklum",
+      "description": "\n\t\t\t\t\tOn behalf of Guardicore, Ciklum is looking for a Middle Python Developer to join our team on a full-time basis.\n\nAt Guardicore (now Akamai!), we’re changing how organizations protect their data centers and clouds from advanced threats — and that starts with our people.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 222,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/ciklum/vacancies/210689/",
+      "title": "Junior Python Developer for Guardicore (220003P8)",
+      "company": " Ciklum",
+      "description": "\n\t\t\t\t\tOn behalf of Guardicore, Ciklum is looking for a Junior Python Developer to join our team on a full-time basis.\n\nAt Guardicore (now Akamai!), we’re changing how organizations protect their data centers and clouds from advanced threats — and that starts with our people.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 223,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/pandadoc/vacancies/210677/",
+      "title": "Senior Backend Engineer (Solutions Track)",
+      "company": " PandaDoc",
+      "description": "\n\t\t\t\t\tWe are looking for a passionate, results-oriented, and ready-to-learn engineer to develop superior product solutions within our fast-growing business.Are you adaptable, driven, and friendly? Do you thrive in a fast-paced work environment where collaboration is a must?\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 224,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/lets-enhance/vacancies/182448/",
+      "title": "Backend Software Engineer",
+      "company": " Let's Enhance",
+      "description": "\n\t\t\t\t\tLet’s Enhance is a global, fully remote, and fast-growing product startup. We specialize in Computer Vision and building artificial intelligence tools to automate image processing at scale.\nWe are 30+ people, located in 6+ countries and speaking 7+ languages.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 225,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/thewhykingz/vacancies/210657/",
+      "title": "Python Developer",
+      "company": " The WhyKingz",
+      "description": "\n\t\t\t\t\tМи розширюємося та хочемо запустити для наших клієнтів нові зручні сервіси для зберігання коштів та оплати послуг у криптовалютах на глобальному ринку payments. Шукаємо розробників для розвитку існуючих продуктів та запуску MVP за новими сервісами.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 226,
+    "fields": {
+      "url": "https://djinni.co/jobs/434487-middle-senior-python-developer/",
+      "title": "\n\nMiddle + / Senior Python Developer\n\n$4000-5000\n",
+      "company": "\nAnastasiia Borys,\n\n      IT- recruiter\n      в \n      \n        Argument\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "People-oriented management without bureaucracy\r\nThe friendly climate inside the company\r\nFlexible working hours\r\nPaid to participate in the sports events\r\nEducational budget",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 227,
+    "fields": {
+      "url": "https://djinni.co/jobs/419061-middle-back-end-developer-python-/",
+      "title": "\n\nMiddle Back-end developer (Python)\n\n",
+      "company": "\nDanil Veger,\n\n      Recruiter/Researcher\n      в \n      \n        Ivy tech\n      \n\n\n\n  \n    Україна\n\n    \n\n        Product\n \n        Full Remote\n· 2 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Ivy Tech is an international IT company that works with high growth and innovative product companies. We started in Ukraine in 2016 and are now branching out to other European countries. Our clients are from the US, Europe and Australia.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 228,
+    "fields": {
+      "url": "https://djinni.co/jobs/169314-middle-python-developer/",
+      "title": "\n\nMiddle Python Developer\n\n",
+      "company": "\nYana Lupuliak,\n\n      IT recruiter\n      в \n      \n        Uvik Software\n      \n\n\n\n  \n    Україна\n(Івано-Франківськ, Чернівці)\n\n \n        Office Work\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "Uvik Software is a Python focused company. Our development team consists of Middle+/Senior engineers.\r\nOur customers are big enterprise and product companies from the US.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 229,
+    "fields": {
+      "url": "https://djinni.co/jobs/285851-senior-python-developer/",
+      "title": "\n\nSenior Python Developer\n\n",
+      "company": "\nYana Lupuliak,\n\n      IT recruiter\n      в \n      \n        Uvik Software\n      \n\n\n\n  \n    Україна\n(Івано-Франківськ, Чернівці)\n\n \n        Office Work\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "Uvik Software is looking for Senior Python Developer (Remote/Office)",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 230,
+    "fields": {
+      "url": "https://djinni.co/jobs/295922-aqa-python/",
+      "title": "\n\nAQA Python\n\n",
+      "company": "\nOksana Klymovych,\n\n      Recruiter\n      в \n      \n        EPAM\n      \n\n\n\n  \n    Україна\n(Вінниця, Дніпро, Івано-Франківськ\n    \n      + ще 4 міста)\n\n \n        Office/Remote на ваш вибір\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "Senior Automation Testing Engineer to join EPAM",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 231,
+    "fields": {
+      "url": "https://djinni.co/jobs/402599-automation-qa-engineer-entire-europe-/",
+      "title": "\n\nAutomation QA engineer (Entire Europe)\n\n",
+      "company": "\nValeriia Doroshenko,\n\n      Recruiter\n      в \n      \n        GlobalLogic\n      \n\n\n\n  \n    Україна,\n    Польща,\n    Німеччина,\n    Швеція\n\n    \n \n        Full Remote\n· 2 роки досвіду\n· Intermediate\n",
+      "description": "We are looking for an experienced QA Automation Engineer. The product is a set of software-defined storage systems, which provide scalable distributed shared file system for professional media production and real-time media delivery.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 232,
+    "fields": {
+      "url": "https://djinni.co/jobs/353556-senior-data-engineer/",
+      "title": "\n\nSenior Data Engineer\n\n$5500-6000\n",
+      "company": "\nOksana Doroshkevych,\n\n      Recruiter\n      в \n      \n        reintech.io\n      \n\n\n\n  \n    Південно-Африканська Республіка\n\n    \n\n        Product\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "We are looking for a Data Engineer who will be able to deploy and scale analytical initiatives throughout the organization",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 233,
+    "fields": {
+      "url": "https://djinni.co/jobs/434433-interviewer-for-python-developers/",
+      "title": "\n\nInterviewer for Python Developers\n\n$5000-7000\n",
+      "company": "\nAleksey Novokreshchenov,\n\n      СOO\n      в \n      \n        Spacebus\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "Hi there\r\nI looking for a person who can interview the senior and middle python developers with Django, Flask, FastAPI, and AWS.\r\nWe consider long-term agreements.\r\nThe interview will be in English.\r\nWe going to pay for each interview once a month.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 234,
+    "fields": {
+      "url": "https://djinni.co/jobs/434426-devops-aws-python-engineer/",
+      "title": "\n\nDevOps (AWS / Python) Engineer\n\n",
+      "company": "\nYevhen Tsyhankov,\n\n      Talent Acquisition Manager\n      в \n      \n        Echo\n      \n\n\n\n  \n    Україна\n(Львів)\n\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Dutch fintech company, with a diverse team of over 30 entrepreneurial go-getters from all over the world. MoneyPhone deploys cutting-edge technology to support the digitization of microfinance institutions (MFIs) and SME banks in emerging markets.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 235,
+    "fields": {
+      "url": "https://djinni.co/jobs/434427-system-technical-product-owner/",
+      "title": "\n\nSystem Technical Product Owner\n\n",
+      "company": "\nVeronika Sazonova,\n\n      Recruiter\n      в \n      \n        GlobalLogic\n      \n\n\n\n  \n    Україна\n\n    \n \n        Office/Remote на ваш вибір\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "GlobalLogic looking for System Technical Product Owner",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 236,
+    "fields": {
+      "url": "https://djinni.co/jobs/434424-senior-qa-automation-engineer-python-/",
+      "title": "\n\nSenior QA Automation Engineer (Python)\n\n",
+      "company": "\nOlga Opanasenko,\n\n      Senior recruiter\n      в \n      \n        Gemicle\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 5 років досвіду\n· Intermediate\n",
+      "description": "We provide companies with true Visual Intelligence, which can \"see\" better than humans.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 237,
+    "fields": {
+      "url": "https://djinni.co/jobs/434421-middle-senior-python-developer/",
+      "title": "\n\nMiddle / Senior Python Developer\n\n",
+      "company": "\nOlga Opanasenko,\n\n      Senior recruiter\n      в \n      \n        Gemicle\n      \n\n\n\n  \n    Україна\n\n    \n \n        Full Remote\n· 3 роки досвіду\n· Intermediate\n",
+      "description": "Agnelli Family who owns shares at Ferrari, FC Juventus, Fiat, is one of the main investors of this product! We are looking for a star who will help us build the future!",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 238,
+    "fields": {
+      "url": "https://djinni.co/jobs/434417-senior-backend-engineer/",
+      "title": "\n\nSenior Backend Engineer\n\n",
+      "company": "\nOlga Saichuk,\n\n      IT Recruiter\n      в \n      \n        8allocate\n      \n\n\n\n  \n    Україна\n(Київ),\n    Естонія\n\n    \n \n        Office/Remote на ваш вибір\n· 5 років досвіду\n· Upper-Intermediate\n",
+      "description": "8allocate is a global provider of end-to-end custom software development solutions to companies all over the globe, from North America to the EU to Israel to Australia.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 239,
+    "fields": {
+      "url": "https://djinni.co/jobs/434405-senior-qa-automation-python-/",
+      "title": "\n\nSenior QA automation (Python)\n\n",
+      "company": "\nNatali Podriez,\n\n      Recruiter\n      в \n      \n        Luxoft\n      \n\n\n\n  \n    Україна\n(Київ, Львів)\n\n \n        Full Remote\n· 3 роки досвіду\n· Upper-Intermediate\n",
+      "description": "Our client delivers innovative, end-to-end media software and networking solutions to over 3,000 customers in more than 185 countries, including the top broadcast facilities and the most technologically advanced sports and live-event venues.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 240,
+    "fields": {
+      "url": "https://djinni.co/jobs/434401-ops-engineer/",
+      "title": "\n\nOps Engineer\n\n",
+      "company": "\nOlha Sumnikova,\n\n      IT Recruiter\n      в \n      \n        Lviv IT!\n      \n\n\n\n  \n    Україна\n(Львів)\n\n \n        Office/Remote на ваш вибір\n· 1 рік досвіду\n· Intermediate\n",
+      "description": "We are LvivIT!LLC, for a client CentalNic (world’s leading provider of internet infrastructure services, such as domains,etc.) we are looking for a skilled Ops with Linux, Ansible, scripting skills (Python is preferred). You will work on customer and product migrations.",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 241,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/innovecs/vacancies/211038/",
+      "title": "Senior Python Developer",
+      "company": " Innovecs",
+      "description": "\n\t\t\t\t\tWe are looking for a motivated and experienced Senior Python Developer.REQUIREMENTS:\n\nFirst and foremost, excellent knowledge and hands-on experience in Python\nAt least 4 years of experience in software development\nProven experience working with Linux system environments\n\nRESPONSIBILITIES:...\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 242,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/numerical-technologies-ltd/vacancies/176777/",
+      "title": "Math + Python developer (students are welcome)",
+      "company": " Numerical Technologies",
+      "description": "\n\t\t\t\t\tNumerical Technologies, a leading provider of software development and consultancy services for financial institutions, is looking for talented people experienced in Math and Python who will be responsible for development, testing, implementation, debugging and support of sophisticated...\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 243,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/tango-me/vacancies/187610/",
+      "title": "Senior ML Engineer / MLOps",
+      "company": " Tango Me",
+      "description": "\n\t\t\t\t\tTango is a privately-held company headquartered in Mountain View, California with an attractive option/stock plan. Our platform allows thousands of talented people all around the world to find fans and monetize talents.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 244,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/provectus/vacancies/210977/",
+      "title": "Middle/Senior Data Engineer (Python/Java) (Ukraine, Poland)",
+      "company": " Provectus",
+      "description": "\n\t\t\t\t\tAt Provectus, we are obsessed with technologies that impact the future of the whole of humanity. Just imagine: AI for curing eye diseases, ML for making factories safe for workers, preventing pandemic spreading, etc.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 245,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/allset/vacancies/210936/",
+      "title": "Middle Python Engineer",
+      "company": " Allset",
+      "description": "\n\t\t\t\t\tAllset is looking for an experienced and enthusiastic Middle Python Engineer to join our cross-functional team.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 246,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/avenga/vacancies/210924/",
+      "title": "Python Engineer",
+      "company": " Avenga",
+      "description": "\n\t\t\t\t\tVacancy level: Middle, Senior\nCustomer: London, UK\nTechnology stack: Python, AWS, Snowflake\nDomain: Fintech\nProject description: We’re growing steadily, and are looking for a Python Software Engineer to join our team on a full-time basis.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 247,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/verbit-ai/vacancies/210917/",
+      "title": "Python Engineer",
+      "company": " Verbit.ai",
+      "description": "\n\t\t\t\t\tWe are currently looking for a Backend (Python) Engineer to join our Ukraine office.\nIn this role, you will take part in the development of solutions that enable us to revolutionize the transcription industry.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 248,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/beetroot-academy/vacancies/210895/",
+      "title": "Викладач курсу Python",
+      "company": " Beetroot Academy",
+      "description": "\n\t\t\t\t\tЖиття вирує у Beetroot Academy! Шукаємо викладача/викладачку курсу Python. Ти будеш фокусуватися на практичному боці курсу та навчати студентів на реальних проектах. Станеш лідером команди майбутніх фахівців. Допоможеш людям розпочати нову кар’єру та розвивати IT галузь.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 249,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/axon/vacancies/210865/",
+      "title": "Python Engineer (2+ year of experience)",
+      "company": " Axon",
+      "description": "\n\t\t\t\t\tAbout the project\nYou will join the development team of a French company, founded in 2018 and which specializes in e-health that aims to modernize the profession of pharmacist.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 250,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/vector-software-1/vacancies/210864/",
+      "title": "Junior/Middle FS Python Developer",
+      "company": " Vector Software",
+      "description": "\n\t\t\t\t\tDescription:\nOur project has over the last year developed a dashboarding system on our drilling rigs where we present data from the different historians on the rig. We use OPC-UA to communicate with the historians and we use Python Dash to build apps for dashboarding.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 251,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/skelia/vacancies/188979/",
+      "title": "Senior Full Stack Python Developer (SK-914)",
+      "company": " Skelia",
+      "description": "\n\t\t\t\t\tSkelia is on the hunt for a skilled Senior/Middle Python Full Stack Developer for long-term and full-time employment! Indeed, remotely and even after the pandemic ends.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 252,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/tango-me/vacancies/208341/",
+      "title": "ML Engineer Team Lead",
+      "company": " Tango Me",
+      "description": "\n\t\t\t\t\tTango is a privately-held company headquartered in Mountain View, California with an attractive option/stock plan.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 253,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/ukrenergo/vacancies/60959/",
+      "title": "Middle Python developer",
+      "company": " НЕК \"Укренерго\"",
+      "description": "\n\t\t\t\t\tПовна вища освіта;\nДосвід розробки програмного забезпечення 2+ роки.\nРозуміння структур даних та основних патернів проектування, а також розуміння основ засад SOLID.\nЗнання мови програмування Python в версії 3.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 254,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/plink-gg/vacancies/167834/",
+      "title": "Senior Python Developer",
+      "company": " PLINK.GG",
+      "description": "\n\t\t\t\t\tABOUT PLINK\nPlink is a gaming-focused social network and teammate finder that connects gamers.\nIf there’s a place for gamers in this world — it’s definitely Plink App.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.vacancy",
+    "pk": 255,
+    "fields": {
+      "url": "https://jobs.dou.ua/companies/evo/vacancies/207953/",
+      "title": "Middle Python Software Engineer (Prom.ua)",
+      "company": " EVO",
+      "description": "\n\t\t\t\t\tПроект Prom.ua компанії EVO в пошуках Middle Python Software Engineer.Prom.ua — один з лідерів серед торгових майданчиків в Україні, більше 50 000 продавців і 112 000 000 пропозицій, кожна 5-а гривня в уанеті витрачається на prom.ua.\n\t\t\t\t",
+      "city": 7,
+      "language": 1,
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.error",
+    "pk": 5,
+    "fields": {
+      "data": {
+        "Errors": [
+          {
+            "url": "https://www.work.ua/jobs-kyiv-python/",
+            "title": "Page Not Response"
+          },
+          {
+            "url": "https://www.work.ua/jobs-kyiv-python/",
+            "title": "Div does not exists"
+          }
+        ]
+      },
+      "timestamp": "2022-06-08"
+    }
+  },
+  {
+    "model": "scrapping_app.error",
+    "pk": 16,
+    "fields": {
+      "data": {
+        "Errors": [
+          {
+            "url": "https://www.work.ua/jobs-kyiv-python/",
+            "title": "Div does not exists"
+          },
+          {
+            "url": "https://jobs.dou.ua/vacancies/?city=%D0%9A%D0%B8%D1%97%D0%B2&search=python",
+            "title": "Page Not Response"
+          }
+        ]
+      },
+      "timestamp": "2022-06-09"
+    }
+  },
+  {
+    "model": "scrapping_app.error",
+    "pk": 17,
+    "fields": {
+      "data": {
+        "Errors": [
+          {
+            "url": "https://www.work.ua/jobs-kyiv-python/",
+            "title": "Div does not exists"
+          }
+        ]
+      },
+      "timestamp": "2022-06-10"
+    }
+  },
+  {
+    "model": "scrapping_app.error",
+    "pk": 18,
+    "fields": {
+      "data": {
+        "Errors": [
+          {
+            "url": "https://www.work.ua/jobs-kyiv-python/",
+            "title": "Div does not exists"
+          }
+        ]
+      },
+      "timestamp": "2022-06-15"
+    }
+  },
+  {
+    "model": "scrapping_app.url",
+    "pk": 1,
+    "fields": {
+      "city": 7,
+      "language": 1,
+      "url_data": {
+        "work": "https://www.work.ua/jobs-kyiv-python/",
+        "djini": "https://djinni.co/jobs/keyword-python/kyiv/",
+        "dou": "https://jobs.dou.ua/vacancies/?city=%D0%9A%D0%B8%D1%97%D0%B2&search=python"
+      }
+    }
+  },
+  {
+    "model": "scrapping_app.url",
+    "pk": 2,
+    "fields": {
+      "city": 7,
+      "language": 2,
+      "url_data": {
+        "work": "https://www.work.ua/jobs-kyiv-java/",
+        "djini": "https://djinni.co/jobs/keyword-java/kyiv/",
+        "dou": "https://jobs.dou.ua/vacancies/?city=%D0%9A%D0%B8%D1%97%D0%B2&search=java"
+      }
+    }
+  }
+]
